@@ -1,0 +1,6 @@
+re -rf ./ .git
+git init
+git add .
+git commit -m 'commit message'
+git remote add origin [원격저장소 url]
+git push --force --set-upstreen origin main
